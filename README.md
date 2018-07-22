@@ -1,5 +1,6 @@
 # iOS_Player_UsingAVPlayer
 How to use AVPlayer and How this is organized
+<<<<<<< HEAD
 These git repository is iOS Media Player using AVPlayer Sample
 Explain about AVPlayer and How to use it!!
 
@@ -23,5 +24,3 @@ Main Function of AVFoundation is managing of asset and playback asset
 **AVAsset** is a container of static information about Media Data
 **AVAsset** can translate to URL object from local file based media data, remote media data and Live Streaming
 **AVAsset** is consist of **AVAssetTrack**
-AVAsset can access these AVAssetTracks
-![AVAsset1](./ScreenShots/AVAsset01.png)
