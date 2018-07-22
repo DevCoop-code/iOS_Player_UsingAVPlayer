@@ -24,7 +24,6 @@ Main Function of AVFoundation is managing of asset and playback asset
 **AVAsset** can translate to URL object from local file based media data, remote media data and Live Streaming
 **AVAsset** is consist of **AVAssetTrack**
 AVAsset can access these AVAssetTracks
-![AVAsset1](./ScreenShots/AVAsset01.png)
 #### Creating AVAsset
 AVAsset is abstract class so Generate **AVURLAsset** which inherited AVAsset Class
 
@@ -41,3 +40,4 @@ AVPlayerItem manage Asset's Presentation State
 AVPlayerItemTrack manage Presentation State about each of track in Asset 
 ### AVPlayerLayer
 AVPlayerLayer can print out media on screen
+![relationship_of_media object1](./ScreenShots/relationship_of_mediaobject.png)
