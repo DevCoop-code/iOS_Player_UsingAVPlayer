@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		784F670E21046100002B7217 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F670D21046100002B7217 /* VideoPlayer.swift */; };
 		788CC50721044C670099A8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CC50621044C670099A8A8 /* AppDelegate.swift */; };
 		788CC50921044C670099A8A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CC50821044C670099A8A8 /* ViewController.swift */; };
 		788CC50C21044C670099A8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788CC50A21044C670099A8A8 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		784F670D21046100002B7217 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		788CC50321044C670099A8A8 /* AVPlayerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788CC50621044C670099A8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788CC50821044C670099A8A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				788CC50D21044C680099A8A8 /* Assets.xcassets */,
 				788CC50F21044C680099A8A8 /* LaunchScreen.storyboard */,
 				788CC51221044C680099A8A8 /* Info.plist */,
+				784F670D21046100002B7217 /* VideoPlayer.swift */,
 			);
 			path = AVPlayerPractice;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				788CC50921044C670099A8A8 /* ViewController.swift in Sources */,
 				788CC50721044C670099A8A8 /* AppDelegate.swift in Sources */,
+				784F670E21046100002B7217 /* VideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYV3CSY2F3;
 				INFOPLIST_FILE = AVPlayerPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYV3CSY2F3;
 				INFOPLIST_FILE = AVPlayerPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
