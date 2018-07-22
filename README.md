@@ -24,6 +24,7 @@ If u use AVKit, Easy to make interface
 **AVAsset** can translate to URL object from local file based media data, remote media data and Live Streaming
 **AVAsset** is consist of **AVAssetTrack**
 AVAsset can access these AVAssetTracks
+![AVAsset1](./ScreenShots/AVAsset01.png)
 #### Creating AVAsset
  AVAsset is abstract class so Generate **AVURLAsset** which inherited AVAsset Class
 
