@@ -42,3 +42,14 @@ But Don't worry about, **AVFoundation provides AVMetaataItem class which can dea
 ### AVPlayerLayer
  AVPlayerLayer can print out media on screen
 ![relationship_of_media object1](./ScreenShots/relationship_of_mediaobject.png)
+
+### AVPlayer
+Core class of playback media
+Managing of playback, pause, seek
+
+### AVPlayerItem
+AVAsset provide static media information so cannot use AVAsset to dealing with dynamic information process
+So, we should use AVPlayerItem, AVPlayerItem manage MediaData's Presentation State to self
+ex] Get the current time in playback media
+And AVPlayerItem has AVPlayerItemTracks, AVPlayerItemTracks manage asset's track which AVPlayerItem has
+![avplayeritemtrack](./ScreenShots/avplayeritemtrack.png)
