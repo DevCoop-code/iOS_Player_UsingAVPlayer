@@ -41,4 +41,3 @@ AVPlayerItem manage Asset's Presentation State
 AVPlayerItemTrack manage Presentation State about each of track in Asset 
 ### AVPlayerLayer
 AVPlayerLayer can print out media on screen
-![relationship_of_media object1](./ScreenShots/relationship_of_mediaobject.png)
