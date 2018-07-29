@@ -12,9 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var playerContainerView: UIView!
     
-    private var videoController : VideoPlayer?{
+    private var videoController : VideoPlayerController?{
         for viewController in self.childViewControllers{
-            if let videoController = viewController as? VideoPlayer{
+            if let videoController = viewController as? VideoPlayerController{
                 return videoController
             }
         }

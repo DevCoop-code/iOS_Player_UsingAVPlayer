@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		784F670E21046100002B7217 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F670D21046100002B7217 /* VideoPlayer.swift */; };
+		784F670E21046100002B7217 /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F670D21046100002B7217 /* VideoPlayerController.swift */; };
 		788CC50721044C670099A8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CC50621044C670099A8A8 /* AppDelegate.swift */; };
 		788CC50921044C670099A8A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CC50821044C670099A8A8 /* ViewController.swift */; };
 		788CC50C21044C670099A8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788CC50A21044C670099A8A8 /* Main.storyboard */; };
 		788CC50E21044C680099A8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788CC50D21044C680099A8A8 /* Assets.xcassets */; };
 		788CC51121044C680099A8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788CC50F21044C680099A8A8 /* LaunchScreen.storyboard */; };
 		788CC51C21044C680099A8A8 /* AVPlayerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CC51B21044C680099A8A8 /* AVPlayerPracticeTests.swift */; };
+		78DB8BC2210D80AC0011D87B /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB8BC1210D80AC0011D87B /* Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		784F670D21046100002B7217 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		784F670D21046100002B7217 /* VideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
 		788CC50321044C670099A8A8 /* AVPlayerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788CC50621044C670099A8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788CC50821044C670099A8A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		788CC51721044C680099A8A8 /* AVPlayerPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788CC51B21044C680099A8A8 /* AVPlayerPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerPracticeTests.swift; sourceTree = "<group>"; };
 		788CC51D21044C680099A8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DB8BC1210D80AC0011D87B /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +81,14 @@
 		788CC50521044C670099A8A8 /* AVPlayerPractice */ = {
 			isa = PBXGroup;
 			children = (
+				78DB8BC0210D80970011D87B /* Settings */,
 				788CC50621044C670099A8A8 /* AppDelegate.swift */,
 				788CC50821044C670099A8A8 /* ViewController.swift */,
 				788CC50A21044C670099A8A8 /* Main.storyboard */,
 				788CC50D21044C680099A8A8 /* Assets.xcassets */,
 				788CC50F21044C680099A8A8 /* LaunchScreen.storyboard */,
 				788CC51221044C680099A8A8 /* Info.plist */,
-				784F670D21046100002B7217 /* VideoPlayer.swift */,
+				784F670D21046100002B7217 /* VideoPlayerController.swift */,
 			);
 			path = AVPlayerPractice;
 			sourceTree = "<group>";
@@ -97,6 +100,14 @@
 				788CC51D21044C680099A8A8 /* Info.plist */,
 			);
 			path = AVPlayerPracticeTests;
+			sourceTree = "<group>";
+		};
+		78DB8BC0210D80970011D87B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				78DB8BC1210D80AC0011D87B /* Constraints.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DB8BC2210D80AC0011D87B /* Constraints.swift in Sources */,
 				788CC50921044C670099A8A8 /* ViewController.swift in Sources */,
 				788CC50721044C670099A8A8 /* AppDelegate.swift in Sources */,
-				784F670E21046100002B7217 /* VideoPlayer.swift in Sources */,
+				784F670E21046100002B7217 /* VideoPlayerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
