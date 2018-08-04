@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U09-xV-nO1">
-                                <rect key="frame" x="0.0" y="20" width="375" height="229"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U09-xV-nO1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="152"/>
                                 <connections>
                                     <segue destination="uj4-c6-MXw" kind="embed" id="8fc-Tp-s4j"/>
                                 </connections>
@@ -27,10 +27,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="U09-xV-nO1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3CO-CN-Ubo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U09-xV-nO1" secondAttribute="trailing" id="8KQ-IB-BmN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U09-xV-nO1" secondAttribute="bottom" constant="492" id="bC6-YS-Jac"/>
-                            <constraint firstItem="U09-xV-nO1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bxv-o5-hEU"/>
+                            <constraint firstItem="U09-xV-nO1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="40c-D4-Ei0"/>
+                            <constraint firstItem="U09-xV-nO1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4fF-Eo-Hme"/>
+                            <constraint firstItem="U09-xV-nO1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7wI-rE-Gbp"/>
+                            <constraint firstItem="U09-xV-nO1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PQV-Of-cGe"/>
+                            <constraint firstItem="U09-xV-nO1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uPh-XT-cTJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -47,11 +48,11 @@
             <objects>
                 <viewController id="uj4-c6-MXw" userLabel="Video Controller" customClass="VideoPlayerController" customModule="AVPlayerPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mBq-0o-DDJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSt-JF-d2F" customClass="VideoPlayerPlaybackView" customModule="AVPlayerPractice" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
